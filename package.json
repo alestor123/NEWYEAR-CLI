@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "This is a simple code for newyear count down in cli",
   "main": "App.js",
+  "bin": {
+    "newyear-cli": "App.js"
+  },
   "dependencies": {
     "chalk": "^4.1.0",
     "cli-box": "^6.0.10",
